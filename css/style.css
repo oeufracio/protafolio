@@ -68,3 +68,53 @@ header {
     height: 2px;
     margin-top: 10px;
 }
+
+
+/****** MEDIA QUERIES *****/
+
+/* Mobile default (xs) */
+
+/* Tablet (sm) */
+@media screen and (min-width: 768px) {
+    .header-title {
+        font-size: 56px;
+    }
+
+    .header-subtitle {
+        font-size: 20px;
+    }
+
+    .featured-title {
+        font-size: 30px;
+    }
+
+    .project-title {
+        font-size: 32px;
+    }
+
+    .project-link {
+        font-size: 16px;
+    }
+
+    .header-img {
+        width: 93px;
+        height: 93px;
+    }
+}
+
+/* Desktop (md) (lg)*/
+@media screen and (min-width: 992px) {
+
+    .header-title {
+        font-size: 64px;
+    }
+
+    .header-subtitle {
+        font-size: 26px;
+    }
+
+    .header-img {
+        width: 108px;
+        height: 108px;
+    }
+}
